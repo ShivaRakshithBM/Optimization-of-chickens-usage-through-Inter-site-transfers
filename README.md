@@ -1,3 +1,52 @@
+Problem Statement:
 
+Initial State:
+There is site specific surplus and deficit of chicken. The transfers are not done from one site to another due to the entangled processes of coordination and calculations
 
+Final Desired State:
+There is an inter site solutions tool which will indicates the amount of chicken breed and chicken parts which has to be transferred among sites. 
 
+Questions:
+1) What are the logistics cost for the transfer of the birds? - Cost v/s Customer satisfaction tradeoff
+2) Can the demand – supply be adjusted among sites without transfer of chickens? 
+3) What are the business rules to transfer the chickens among sites?
+
+Approach:
+I have used a 9 step iterative framework for this dashboard creation:
+
+Business understanding:
+There are multiple sites in which the poultry products are manufactured. This is according to customers’ location and manufacturing capacity of the site
+
+Data understanding:
+The following files are already present from the Centralized Plannuing tool project
+All the files viz. Demand file, supply file, dite data, Chicken breed file, Products file, Customer Approvals file, Site data file.
+
+Data preparation:
+The data which was prepared for the Centralized planning tool was used here too. 
+
+Algorithm preparation:
+We created a set of logics which was used to transfer the chicken among sites. The algorithmic flow chart was signed off from the client and then it is coded in R. The manufacturing capacity of the sites were the main consideration for the transfers.
+
+Data Issues:
+Since the data was cleaned for the previous project, no issues were seen.
+
+Issue tracker was created in Excel which records the time stamp of each issue and the resolutions and the time taken for effective project management. 
+
+Dashboard Creation:
+1) The dashboard had 2 views, first one being the amount of chicken transferred among sites and the second being the demand which is still not sufficed by this process 
+2) The final data from the Centralized Planning tool was the input for this dashboard
+3) The front end visualizations were connected with the back end data through VBA codes
+
+Quality Check:
+The numbers in the dashboard was Quality checked by the team and the client several times to avoid any errors.
+
+Deployment:
+1) The solutions tool was rolled out to the client for its usage in their environment
+
+Next Steps:
+Required changes to the solutions tool, according to the feedback from the clients, should be done
+
+Learnings:
+1) Learnt the syntax for coding in R
+2) Learnt the algorithmic thinking for data science projects and implement in R
+3) Learnt the poultry manufacturing process 
