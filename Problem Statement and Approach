@@ -47,6 +47,6 @@ Next Steps:
 Required changes to the solutions tool, according to the feedback from the clients, should be done
 
 Learnings:
-1) Learnt the syntax for coding in R
-2) Learnt the algorithmic thinking for data science projects and implement in R
+1) The syntax for coding in R - loops like for and while, if conditions
+2) Append the output data from one step as input to the sequential steps
 3) Learnt the poultry manufacturing process 
