@@ -1,10 +1,12 @@
 Problem Statement:
 
 Initial State:
-There is site specific surplus and deficit of chicken. The transfers are not done from one site to another due to the entangled processes of coordination and calculations
+There is site specific surplus and deficit of chicken. The transfers are not done from one site to another due to the entangled processes
+of coordination and calculations.
 
 Final Desired State:
-There is an inter site solutions tool which will indicates the amount of chicken breed and chicken parts which has to be transferred among sites. 
+There is an inter site solutions tool which will indicates the amount of chicken breed and chicken parts which has to be transferred 
+among sites. 
 
 Questions:
 1) What are the logistics cost for the transfer of the birds? - Cost v/s Customer satisfaction tradeoff
@@ -12,10 +14,20 @@ Questions:
 3) What are the business rules to transfer the chickens among sites?
 
 Approach:
-I have used a 9 step iterative framework for this dashboard creation:
+I have used a 9 step iterative framework for this project:
+1) Business Understanding
+2) Data Understanding
+3) Data Preparation
+4) Algorithm Preparation
+5) Data Issues and Sanity control
+6) Dashboard Creation
+7) Quality check
+8) Deployment
+9) Next Steps
 
 Business understanding:
-There are multiple sites in which the poultry products are manufactured. This is according to customers’ location and manufacturing capacity of the site
+There are multiple sites in which the poultry products are manufactured. This is according to customers’ location and manufacturing 
+capacity of the site
 
 Data understanding:
 The following files are already present from the Centralized Plannuing tool project
@@ -25,15 +37,18 @@ Data preparation:
 The data which was prepared for the Centralized planning tool was used here too. 
 
 Algorithm preparation:
-We created a set of logics which was used to transfer the chicken among sites. The algorithmic flow chart was signed off from the client and then it is coded in R. The manufacturing capacity of the sites were the main consideration for the transfers.
+We created a set of logics which was used to transfer the chicken among sites. The algorithmic flow chart was signed off from the client 
+and then it is coded in R. The manufacturing capacity of the sites were the main consideration for the transfers.
 
-Data Issues:
+Data Issues and Sanity control:
 Since the data was cleaned for the previous project, no issues were seen.
 
-Issue tracker was created in Excel which records the time stamp of each issue and the resolutions and the time taken for effective project management. 
+Issue tracker was created in Excel which records the time stamp of each issue and the resolutions and the time taken for effective 
+project management. 
 
 Dashboard Creation:
-1) The dashboard had 2 views, first one being the amount of chicken transferred among sites and the second being the demand which is still not sufficed by this process 
+1) The dashboard had 2 views, first one being the amount of chicken transferred among sites and the second being the demand which is still
+not sufficed by this process 
 2) The final data from the Centralized Planning tool was the input for this dashboard
 3) The front end visualizations were connected with the back end data through VBA codes
 
